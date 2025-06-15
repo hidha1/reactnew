@@ -1,5 +1,11 @@
+import Navbar from './components/Navbar';
+import LoginForm from './components/LoginForm';
 function App() {
-	return <div>Hello world</div>;
+	return <div>
+
+		<Navbar/>
+		<LoginForm/>
+	</div>;
 }
 
 export default App;
