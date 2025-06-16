@@ -1,5 +1,8 @@
+import SignupForm from "./components/SignupForm";
 function App() {
-	return <div>Hello world</div>;
+	return <div>
+		<SignupForm/>
+	</div>;
 }
 
 export default App;
